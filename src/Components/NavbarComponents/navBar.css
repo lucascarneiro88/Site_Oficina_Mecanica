@@ -1,0 +1,74 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adapte o preenchimento conforme necessário */
+    background-color: #f0f0f0; /* Cor de fundo do nav */
+  }
+  
+  .redes-sociais {
+    display: flex;
+  }
+  
+  .redes-sociais a {
+    margin-right: 10px; /* Espaçamento entre os ícones de redes sociais */
+  }
+  
+  .logo {
+    flex: 1; /* Ocupa todo o espaço disponível */
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+  }
+  
+  .menu-container {
+    display: none;
+  }
+  
+  .menu-container.open {
+    display: block;
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-left: 20px; /* Espaçamento entre os itens do menu */
+  }
+  
+  .menu li:first-child {
+    margin-left: 0; /* Remove o espaçamento do primeiro item do menu */
+  }
+  
+  .menu-btn {
+    display: none; /* Esconde o botão do menu em telas maiores */
+  }
+  
+  .menu-btn {
+    display: block; /* Mostra o botão do menu em telas menores */
+  }
+  
+  .menu-btn-icon {
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .menu-container {
+      display: none;
+    }
+  
+    .menu-btn {
+      display: block; /* Mostra o botão do menu em telas menores */
+    }
+  
+    .menu-btn-icon {
+      cursor: pointer;
+    }
+  
+    .menu-container.open {
+      display: flex;
+    }
+  }
+  
