@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from '../ContactComponents/Contact';
 import './welcome.css'; // Import do arquivo CSS
 
 function Welcome() {
@@ -7,6 +8,9 @@ function Welcome() {
       <div className="welcome-text">
         <h2>Bem-vindo ao nosso site!</h2>
         <p>Estamos felizes em tê-lo aqui. Explore nossos serviços e descubra mais sobre nós.</p>
+      </div>
+      <div>
+        < Contact />
       </div>
       <div className="welcome-background">
         <img src="/img/ImgWelcome2.png.jpg" alt="imagem caminhões" className="welcome-image" />

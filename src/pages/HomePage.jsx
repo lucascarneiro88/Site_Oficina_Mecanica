@@ -1,12 +1,14 @@
-import React from 'react';
-import NavBar from '../Components/NavbarComponents/NavBar.jsx';
-import Welcome from '../Components/WelcomeComponents/Welcome.jsx';
-import ServiceCard from '../Components/ServiceCardComponents/ServiceCard.jsx';
-import servicesData from '../data/servicesData.js'; // Importa os dados dos serviços
+import React from "react";
+import NavBar from "../Components/NavbarComponents/NavBar.jsx";
+import Welcome from "../Components/WelcomeComponents/Welcome.jsx";
+import ServiceCard from "../Components/ServiceCardComponents/ServiceCard.jsx";
+import servicesData from "../data/servicesData.js";
+import AboutUs from "../Components/AboutUsComponents/AboutUs.jsx";
+import Footer from "../Components/FooterComponents/Footer.jsx";
 
 function HomePage() {
   return (
-    <div className='HomePage'>
+    <div className="HomePage">
       <NavBar />
       <Welcome />
       <div className="home">
@@ -21,7 +23,11 @@ function HomePage() {
             />
           ))}
         </div>
+        <div>
+          <AboutUs />
+        </div>
       </div>
+      <Footer />
     </div>
   );
 }
