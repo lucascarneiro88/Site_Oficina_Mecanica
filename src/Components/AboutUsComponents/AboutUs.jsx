@@ -3,7 +3,7 @@ import "./aboutUs.css";
 
 function AboutUs() {
   return (
-    <div className="about-us">
+    <div className="about-us" id="about">
       <h2>Quem Somos</h2>
       <p>
         Bem-vindo à Mauro Mecânico, o destino número um para proprietários de
