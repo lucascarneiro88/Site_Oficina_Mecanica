@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer-content">
             <div className="footer-section">
                 <h3>Contato</h3>
-                <p>Telefone: (xx) xxxxx-xxxx</p>
+                <p>Telefone: (48) 99634-3207</p>
                 <p>Email: exemplo@example.com</p>
             </div>
             <div className="footer-section">
@@ -19,8 +19,9 @@ function Footer() {
             </div>
             <div className="footer-section">
                 <h3>Endereço</h3>
-                <p>Rua Exemplo, 123</p>
-                <p>Cidade, Estado</p>
+                <p>Rua: Av. Dona Santina C. da Silva - limeira</p>
+                <p>Cidade: Biguaçu - SC</p>
+                <p>CEP: 88160-000</p>
             </div>
         </div>
     </div>
