@@ -1,74 +1,59 @@
+/* Estilos para a barra de navegação */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px; /* Adapte o preenchimento conforme necessário */
-    background-color: #f0f0f0; /* Cor de fundo do nav */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: rgb(48, 57, 65);
+}
+
+.fab {
+    font-size: 30px; 
+    color: #fff;
+}
+
+
+.redes-sociais a {
+  margin-right: 10px;
+}
+
+
+.list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+
+.list li {
+  margin-right: 20px; 
+}
+
+
+.list li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease; 
+}
+
+.list li a:hover {
+  color: lightgray; 
+}
+
+
+.logo img {
+  max-width: 100px; 
+}
+
+
+@media only screen and (max-width: 768px) {
+  .list {
+    display: none; 
   }
-  
-  .redes-sociais {
-    display: flex;
+
+
+  .menu-button {
+    display: block; 
   }
-  
-  .redes-sociais a {
-    margin-right: 10px; /* Espaçamento entre os ícones de redes sociais */
-  }
-  
-  .logo {
-    flex: 1; /* Ocupa todo o espaço disponível */
-    text-align: center; /* Centraliza o conteúdo horizontalmente */
-  }
-  
-  .menu-container {
-    display: none;
-  }
-  
-  .menu-container.open {
-    display: block;
-  }
-  
-  .menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .menu li {
-    margin-left: 20px; /* Espaçamento entre os itens do menu */
-  }
-  
-  .menu li:first-child {
-    margin-left: 0; /* Remove o espaçamento do primeiro item do menu */
-  }
-  
-  .menu-btn {
-    display: none; /* Esconde o botão do menu em telas maiores */
-  }
-  
-  .menu-btn {
-    display: block; /* Mostra o botão do menu em telas menores */
-  }
-  
-  .menu-btn-icon {
-    font-size: 20px;
-  }
-  
-  @media only screen and (max-width: 768px) {
-    .menu-container {
-      display: none;
-    }
-  
-    .menu-btn {
-      display: block; /* Mostra o botão do menu em telas menores */
-    }
-  
-    .menu-btn-icon {
-      cursor: pointer;
-    }
-  
-    .menu-container.open {
-      display: flex;
-    }
-  }
-  
+}

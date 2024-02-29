@@ -1,0 +1,8 @@
+.homePage h1 {
+    font-size: 2rem; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    margin-bottom: 1rem; /* Margem inferior para separação dos serviços */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-family: 'Roboto', sans-serif; /* Escolhe uma fonte */
+  }
+  
