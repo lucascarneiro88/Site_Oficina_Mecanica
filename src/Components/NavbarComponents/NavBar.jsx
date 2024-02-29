@@ -1,31 +1,55 @@
-import React, { useState } from "react";
-import { Link } from 'react-router-dom';
-import "./navBar.css"; // Import do arquivo CSS
+import React from "react";
+import "./navBar.css";
 
 function NavBar() {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    console.log("Scrolling to section:", sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
     <nav>
       <div className="redes-sociais">
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><img src="/caminho/para/facebook.png" alt="Facebook" /></a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><img src="/caminho/para/instagram.png" alt="Instagram" /></a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100087134086815"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-facebook"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/mauro.figueira.319/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-instagram"></i>
+        </a>
       </div>
       <div className="logo">
         <img src="/caminho/para/o/logo.png" alt="Logo da empresa" />
       </div>
-      <div className={`menu-container ${menuOpen ? 'open' : ''}`}>
-        <ul className="menu">
-          <li><Link to="/services">Serviços</Link></li>
-          <li><Link to="/about">Quem Somos</Link></li>
-          <li><Link to="/reviews">Avaliações</Link></li>
+      <div className="list">
+        <ul>
+          <li>
+            <a href="#services" onClick={() => scrollToSection("services")}>
+              Serviços
+            </a>
+          </li>
+          <li>
+            <a href="#about" onClick={() => scrollToSection("about")}>
+              Quem Somos
+            </a>
+          </li>
+          <li>
+            <a href="#reviews" onClick={() => scrollToSection("reviews")}>
+              Avaliações
+            </a>
+          </li>
         </ul>
       </div>
-      <button className="menu-btn" onClick={toggleMenu}>Menu</button>
     </nav>
   );
 }
