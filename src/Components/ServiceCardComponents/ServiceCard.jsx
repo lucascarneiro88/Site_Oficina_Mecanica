@@ -1,12 +1,12 @@
 import React from 'react';
-import { motion } from 'framer-motion'; // Importe motion do pacote framer-motion
+import { motion } from 'framer-motion';
 import './serviceCard.css';
 
 function ServiceCard(props) {
   return (
     <motion.div
       className="service-card"
-      whileHover={{ scale: 1.05 }} 
+      whileHover={{ scale: 1.05 }}
     >
       <div className="item">
         <div className="image-wrapper">
@@ -22,3 +22,4 @@ function ServiceCard(props) {
 }
 
 export default ServiceCard;
+
