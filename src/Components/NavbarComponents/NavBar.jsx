@@ -29,7 +29,8 @@ function NavBar() {
         </a>
       </div>
       <div className="logo">
-        <img src="/caminho/para/o/logo.png" alt="Logo da empresa" />
+        <img src="../img/logo-mecanico.png" alt="Logo da empresa" />
+        <h3>Mauro Mecânico</h3>
       </div>
       <div className="list">
         <ul>
