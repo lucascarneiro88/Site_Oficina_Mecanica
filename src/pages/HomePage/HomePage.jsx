@@ -15,7 +15,7 @@ function HomePage() {
       <NavBar />
       <Welcome />
       <div className="home" id="services">
-        <h1>Nossos Serviços</h1>
+      <h1 className="subtitle-services">Nossos Serviços</h1>
         <div className="services">
           {servicesData.map((service, index) => (
             <ServiceCard
