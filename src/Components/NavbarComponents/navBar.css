@@ -6,6 +6,22 @@ nav {
   padding: 1em;
   background-color: rgb(48, 57, 65);
 }
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px; /* Defina o tamanho desejado para o logo */
+  height: auto; /* Isso garante que a altura seja ajustada automaticamente */
+  margin-right: 10px; /* Adicione margem à direita para separar o logo do texto */
+}
+
+.logo h3 {
+ font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+ color: #fff;
+}
 
 .fab {
     font-size: 30px; 
