@@ -1,12 +1,13 @@
 .homePage .subtitle-services {
     margin-top: 30px;
-    margin-left:40px;
+    margin-left:30px;
     margin-right: 40px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2rem; /* Tamanho da fonte */
-    color: #333; /* Cor do texto */
-    margin-bottom: 1rem; /* Margem inferior para separação dos serviços */
-    text-align: center; /* Centraliza o texto horizontalmente */
-    background-color:rgb(231, 216, 80);
+    font-size: 2rem;
+    color: #333; 
+    margin-bottom: 1rem; 
+    text-align: center; 
+    background-color: rgba(240, 227, 42, 0.952);
+
   }
   
