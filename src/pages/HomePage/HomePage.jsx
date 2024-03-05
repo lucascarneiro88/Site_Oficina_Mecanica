@@ -14,8 +14,20 @@ function HomePage() {
     <div className="homePage">
       <NavBar />
       <Welcome />
+      <div className="services-info">
+        <span className="whatsapp-link">
+          <a
+            href="https://api.whatsapp.com/send?phone=5564996343207"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Venda de peças
+          </a>
+        </span>
+      </div>
+
       <div className="home" id="services">
-      <h1 className="subtitle-services">Nossos Serviços</h1>
+        <h1 className="subtitle-services">Nossos Serviços</h1>
         <div className="services">
           {servicesData.map((service, index) => (
             <ServiceCard
