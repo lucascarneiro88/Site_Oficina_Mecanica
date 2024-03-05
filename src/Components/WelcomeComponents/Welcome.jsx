@@ -40,7 +40,7 @@ function Welcome() {
       </div>
       <div className="welcome-background">
         <img
-          src="../img/welcome.jpg"
+          src="../img/welcome.png"
           alt="imagem caminhões"
           className="welcome-image"
         />
