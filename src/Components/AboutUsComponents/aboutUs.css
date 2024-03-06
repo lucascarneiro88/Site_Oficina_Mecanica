@@ -1,5 +1,5 @@
 .about-us {
-    background-color: #f9f9f9;
+   
     padding: 50px; 
     text-align: center; 
   background-color: #333;
@@ -18,4 +18,21 @@
     line-height: 1.6; 
     color: #fff; 
   }
+  .container-paragrafos p::before {
+    content: ">> ";
+    margin-right: 10px;
+  }
   
+  @media (max-width: 768px) {
+    .sobre-nos h2 {
+      font-size: 24px;
+    }
+  
+    .container-paragrafos {
+      padding: 0 20px;
+    }
+  
+    .container-paragrafos p {
+      font-size: 16px;
+    }
+  }
