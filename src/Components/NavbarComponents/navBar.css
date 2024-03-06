@@ -1,4 +1,4 @@
-/* Estilos para a barra de navegação */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -12,9 +12,9 @@ nav {
 }
 
 .logo img {
-  width: 50px; /* Defina o tamanho desejado para o logo */
-  height: auto; /* Isso garante que a altura seja ajustada automaticamente */
-  margin-right: 10px; /* Adicione margem à direita para separar o logo do texto */
+  width: 50px;
+  height: auto; 
+  margin-right: 10px;
 }
 
 .logo h3 {
