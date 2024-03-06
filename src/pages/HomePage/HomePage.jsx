@@ -8,6 +8,7 @@ import Footer from "../../Components/FooterComponents/Footer.jsx";
 import Review from "../../Components/ReviewsComponents/Review.jsx";
 
 import "./homePage.css";
+import Map from "../../Components/MapComponents/Map.jsx";
 
 function HomePage() {
   return (
@@ -40,6 +41,9 @@ function HomePage() {
         </div>
         <div>
           <AboutUs />
+        </div>
+        <div>
+          <Map />
         </div>
         <div id="reviews">
           <Review />
