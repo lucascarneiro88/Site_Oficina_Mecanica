@@ -1,0 +1,58 @@
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.venda-slide span {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0 20px; /* Ajuste conforme necessário */
+    font-size: 80px; /* Defina o tamanho da fonte conforme desejado */
+}
+
+
+.venda {
+    overflow: hidden;
+    padding: 5px 0;
+    background-color: #FFD700;
+    white-space: nowrap;
+    position: relative;
+}
+
+.venda:before,
+.venda:after {
+    position: absolute;
+    top: 0;
+    width: 250px; 
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.venda:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #FFD700);
+}
+
+.venda:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #FFF);
+}
+
+.venda:hover .venda-slide {
+    animation-play-state: paused;
+}
+
+.venda-slide {
+    display: inline-block;
+    animation: 28s slide infinite linear; /* Ajuste conforme necessário */
+}
+
+.venda-slide span {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0 20px; /* Ajuste conforme necessário */
+}
