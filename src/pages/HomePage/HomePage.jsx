@@ -6,26 +6,20 @@ import servicesData from "../../data/servicesData.js";
 import AboutUs from "../../Components/AboutUsComponents/AboutUs.jsx";
 import Footer from "../../Components/FooterComponents/Footer.jsx";
 import Review from "../../Components/ReviewsComponents/Review.jsx";
-
-import "./homePage.css";
 import Map from "../../Components/MapComponents/Map.jsx";
+import LogoCarousel from "../../Components/LogoComponent/LogoCarousel.jsx";
+import PartsSale from "../../Components/PartsSale/PartsSale.jsx";
+
+import reviewsData from "../../data/reviewsData.js";
+import "./homePage.css";
+
 
 function HomePage() {
   return (
     <div className="homePage">
       <NavBar />
       <Welcome />
-      <div className="services-info">
-        <span className="whatsapp-link">
-          <a
-            href="https://api.whatsapp.com/send?phone=5564996343207"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Venda de peças
-          </a>
-        </span>
-      </div>
+      <PartsSale />
 
       <div className="home" id="services">
         <h1 className="subtitle-services">Nossos Serviços</h1>
@@ -40,13 +34,16 @@ function HomePage() {
           ))}
         </div>
         <div>
+          <LogoCarousel />
+        </div>
+        <div>
           <AboutUs />
         </div>
         <div>
           <Map />
         </div>
         <div id="reviews">
-          <Review />
+        <Review reviews={reviewsData} />
         </div>
       </div>
       <Footer />
