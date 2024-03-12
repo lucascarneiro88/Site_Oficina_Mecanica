@@ -8,13 +8,13 @@ function LogoCarousel() {
   return (
     <div className="logos">
       <div className="logo-slide">
-        {combinedLogos.map((logo) => (
-          <img key={logo.id} src={logo.url} alt={logo.alt} />
+        {combinedLogos.map((logo, index) => (
+          <img key={`logo_${index}`} src={logo.url} alt={logo.alt} />
         ))}
       </div>
       <div className="logo-slide">
-        {combinedLogos.map((logo) => (
-          <img key={logo.id} src={logo.url} alt={logo.alt} />
+        {combinedLogos.map((logo, index) => (
+          <img key={`logo_${index + combinedLogos.length}`} src={logo.url} alt={logo.alt} />
         ))}
       </div>
     </div>
