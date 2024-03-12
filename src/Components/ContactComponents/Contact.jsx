@@ -2,7 +2,7 @@ import React from "react";
 import "./contact.css";
 
 function Contact() {
-  const phoneNumber = "5548996343207"; 
+  const phoneNumber = "48996343207"; 
   const whatsappUrl = `https://wa.me/${phoneNumber}`;
 
   const handleWhatsAppClick = () => {
