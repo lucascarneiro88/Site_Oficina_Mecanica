@@ -1,6 +1,6 @@
 import React from "react";
 
-import reviewsData from "../../data/reviewsData";
+// import reviewsData from "../../data/reviewsData";
 import "./review.css";
 
 function Review(props) {
@@ -12,9 +12,9 @@ function Review(props) {
   ));
 
   return (
-    <div>
+    <div className="container">
       <h1>Comentários dos Clientes</h1>
-      {reviews}
+     <div className="reviews">{reviews}</div> 
     </div>
   );
 }
