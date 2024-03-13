@@ -11,14 +11,7 @@ const reviewsData = [
       nome: "Ulisses Vidal",
       comentario: "Melhor mecânico que já conheci, super honesto e atende emergências no local. Recomendadissimo!!!"
     },
-    {
-      nome: "Rosa Edite Guesser",
-      comentario: "Ótimo Atendimento"
-    },
-    {
-      nome: "José Roberio dos anjos",
-      comentario: "Honesto e bom preço recomendo"
-    }
+  
   ];
   
   export default reviewsData;
