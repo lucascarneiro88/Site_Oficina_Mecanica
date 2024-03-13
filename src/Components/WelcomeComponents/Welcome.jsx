@@ -13,7 +13,7 @@ function Welcome() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
           style={{
-            fontSize: "88px",
+            fontSize: "calc(12px + 4vw)", // Responsivo com base na largura da tela
             fontWeight: "bold",
             color: "#fff",
             textShadow: "2px 2px 4px rgba(26, 23, 23, 0.829)",
@@ -25,42 +25,15 @@ function Welcome() {
           initial={{ opacity: 0, x: 100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 1 }}
-          style={{ fontSize: "40px", color: "#fff" }}
+          style={{ fontSize: "calc(8px + 2vw)", color: "#fff" }} // Responsivo com base na largura da tela
         >
           Bem-vindo ao nosso site!
         </motion.h2>
-        <div className="happy-text">
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 1.5 }}
-            style={{
-              fontWeight: "bold",
-              fontSize: "30px",
-              color: "#ffffff",
-              textShadow: "2px 2px 4px hsla(0, 0%, 5.88235294117647%, 0.945)",
-            }}
-          >
-            <motion.span
-              style={{
-                display: "block",
-                textAlign: "center",
-                marginBottom: "10px",
-                borderBottom: "2px solid #ffffff",
-              }}
-              initial={{ width: 0 }}
-              animate={{ width: "100%" }}
-              transition={{ duration: 1, delay: 1.8 }}
-            />
-            Estamos felizes em tê-lo aqui. Explore nossos serviços e descubra
-            mais sobre nós.
-          </motion.p>
-        </div>
+      
         <div>
           <Contact />
         </div>
       </div>
-      
 
       <div className="welcome-background">
         <img
