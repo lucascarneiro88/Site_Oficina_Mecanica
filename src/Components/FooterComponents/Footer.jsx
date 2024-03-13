@@ -1,5 +1,5 @@
-import React from 'react';
-import './footer.css';
+import React from "react";
+import "./footer.css";
 
 function Footer() {
   return (
@@ -24,16 +24,34 @@ function Footer() {
           </div>
           <div className="footer-section contato">
             <h3>Contato</h3>
-            <p>Telefone: (48) 99634-3207</p>
-            <p>Email: exemplo@example.com</p>
+            <p>
+              <img
+                src="../img/icon-phone.png"
+                alt="Ícone Telefone"
+                className="icone-contato"
+              />{" "}
+             (48) 99634-3207
+            </p>
+            <p>
+              <img
+                src="../img/icon-email.png"
+                alt="Ícone Email"
+                className="icone-contato"
+              />{" "}
+              oficinamauromecanicoltda@gmail.com
+            </p>
           </div>
+
           <div className="footer-section endereco">
-          <h3>Endereço</h3>
-          <p>Rua: Av. Dona Santina C. da Silva - Limeira</p>
-          <p>Cidade: Biguaçu - SC</p>
-          <p>CEP: 88160-000</p>
+            <h3>Endereço</h3>
+            <p>Rua: Av. Dona Santina C. da Silva - Limeira</p>
+            <p>Cidade: Biguaçu - SC</p>
+            <p>CEP: 88160-000</p>
           </div>
         </div>
+      </div>
+      <div className="signature">
+        Lucas Carneiro &copy; {new Date().getFullYear()}
       </div>
     </footer>
   );

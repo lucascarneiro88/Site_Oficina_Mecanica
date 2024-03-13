@@ -30,7 +30,7 @@ function NavBar() {
       </div>
       <div className="logo">
         <img src="../img/logo-mecanico.png" alt="Logo da empresa" />
-        <h3>Mauro Mecânico</h3>
+        <h3>Oficina Mauro Mecânico ltda</h3>
       </div>
       <div className="list">
         <ul>
