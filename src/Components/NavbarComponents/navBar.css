@@ -45,8 +45,8 @@ nav {
   margin-right: 20px; 
 }
 
-
 .list li a {
+  font-size: 20px;
   text-decoration: none;
   color: white;
   transition: color 0.3s ease; 

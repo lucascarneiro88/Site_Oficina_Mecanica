@@ -1,42 +1,46 @@
 .welcome-container {
   position: relative;
   text-align: center;
-  background-size: cover;
-  background-position: center;
-  padding: 1rem; 
+  padding: 1rem;
 }
+
 .welcome-text {
-  font-size: clamp(24px, 4vw, 40px);
   position: absolute;
-  top: 20%;
-  left: 50%;
+  top: 15%;
+  left:50%;
   transform: translate(-50%, -50%);
-  z-index: 1;
+  z-index: 2; /* Colocando o h1 acima */
+}
+
+.welcome-text h1 {
+  font-size: calc(12px + 4vw); /* Responsivo com base na largura da tela */
 }
 
 .welcome-text h2 {
-  font-size: clamp(24px, 4vw, 40px);
-}
-
-.welcome-image {
-  width: 100%;
-  max-height: 78vh;
-}
-.welcome-background {
-  position: relative;
-}
-
-.welcome-image {
-  width: 100%;
-  max-height: 78vh;
+  font-size: calc(8px + 2vw); /* Responsivo com base na largura da tela */
 }
 
 .happy-text {
+
   position: absolute;
-  bottom: -80%; 
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 3vw; 
+  top: 80%; /* Posicionamento em relação ao container pai */
+  left: 80%;
+  margin-bottom: 0;
+  transform: translate(-50%, 50%); /* Ajuste para colocar abaixo do h1 */
+  font-size: calc(6px + 1.5vw); /* Responsivo com base na largura da tela */
   width: 90%;
   text-align: center;
+  z-index: 1; /* Colocando o happy-text abaixo */
+}
+
+.welcome-background {
+  position: relative;
+  background-color: #FFD700; /* Cor vermelha com 70% de opacidade */
+}
+
+.welcome-image {
+  width: 100%;
+  height: auto; /* Para manter a proporção da imagem */
+  max-height: 78vh; /* Limitando a altura da imagem */
+  opacity: 0.9; /* Definindo a opacidade da imagem */
 }
