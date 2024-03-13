@@ -9,7 +9,14 @@ function PartsSale() {
           Vendas de peças, entre em contato conosco.
           (48) 996343207
         </span>
-        
+        <span>
+          Vendas de peças, entre em contato conosco.
+          (48) 996343207
+        </span>
+        <span>
+          Vendas de peças, entre em contato conosco.
+          (48) 996343207
+        </span>
       </div>
     </div>
   )
