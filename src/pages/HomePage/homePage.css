@@ -10,7 +10,6 @@
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
 }
 
-
 .services-info {
   text-align: center;
   margin-top: 1px;
@@ -24,7 +23,6 @@
   margin-right: auto; 
 }
 
-
 .services-info span {
   font-weight: bold;
   color: #FFF;
@@ -32,13 +30,11 @@
   animation: blink 1s infinite;
 }
 
-
 @keyframes blink {
   0% { opacity: 0; }
   50% { opacity: 1; }
   100% { opacity: 0; }
 }
-
 
 .whatsapp-link {
   margin-top: 10px;

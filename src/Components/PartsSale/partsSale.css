@@ -9,10 +9,9 @@
 .venda-slide span {
     display: inline-block;
     white-space: nowrap;
-    padding: 0 20px; /* Ajuste conforme necessário */
-    font-size: 80px; /* Defina o tamanho da fonte conforme desejado */
+    padding: 0 20px; 
+    font-size: 80px; 
 }
-
 
 .venda {
     overflow: hidden;
@@ -42,17 +41,17 @@
     background: linear-gradient(to right, rgba(255, 255, 255, 0), #FFF);
 }
 
-.venda:hover .venda-slide {
+/* .venda:hover .venda-slide {
     animation-play-state: paused;
-}
+} */
 
 .venda-slide {
     display: inline-block;
-    animation: 28s slide infinite linear; /* Ajuste conforme necessário */
+    animation: 28s slide infinite linear; 
 }
 
 .venda-slide span {
     display: inline-block;
     white-space: nowrap;
-    padding: 0 20px; /* Ajuste conforme necessário */
+    padding: 0 20px; 
 }

@@ -1,10 +1,8 @@
 .about-us {
-   
     padding: 50px; 
     text-align: center; 
-  background-color: #333;
-    background-size: cover; 
-    background-position: center; 
+    background-color: #333;
+   
   }
   
   .about-us h2 {
@@ -14,15 +12,12 @@
   }
   
   .about-us p {
+    font-family: 'Roboto', sans-serif;
     font-size: 18px; 
     line-height: 1.6; 
     color: #fff; 
   }
-  .container-paragrafos p::before {
-    content: ">> ";
-    margin-right: 10px;
-  }
-  
+ 
   @media (max-width: 768px) {
     .sobre-nos h2 {
       font-size: 24px;
