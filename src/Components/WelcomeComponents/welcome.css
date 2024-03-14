@@ -9,38 +9,37 @@
   top: 15%;
   left:50%;
   transform: translate(-50%, -50%);
-  z-index: 2; /* Colocando o h1 acima */
+  z-index: 2; 
 }
 
 .welcome-text h1 {
-  font-size: calc(12px + 4vw); /* Responsivo com base na largura da tela */
+  font-size: calc(12px + 4vw); 
 }
 
 .welcome-text h2 {
-  font-size: calc(8px + 2vw); /* Responsivo com base na largura da tela */
+  font-size: calc(8px + 2vw); 
 }
 
 .happy-text {
-
   position: absolute;
-  top: 80%; /* Posicionamento em relação ao container pai */
+  top: 80%; 
   left: 80%;
   margin-bottom: 0;
-  transform: translate(-50%, 50%); /* Ajuste para colocar abaixo do h1 */
-  font-size: calc(6px + 1.5vw); /* Responsivo com base na largura da tela */
+  transform: translate(-50%, 50%); 
+  font-size: calc(6px + 1.5vw); 
   width: 90%;
   text-align: center;
-  z-index: 1; /* Colocando o happy-text abaixo */
+  z-index: 1; 
 }
 
 .welcome-background {
   position: relative;
-  background-color: #FFD700; /* Cor vermelha com 70% de opacidade */
+  background-color: #FFD700; 
 }
 
 .welcome-image {
   width: 100%;
-  height: auto; /* Para manter a proporção da imagem */
-  max-height: 78vh; /* Limitando a altura da imagem */
-  opacity: 0.9; /* Definindo a opacidade da imagem */
+  height: auto; 
+  max-height: 78vh; 
+  opacity: 0.9; 
 }

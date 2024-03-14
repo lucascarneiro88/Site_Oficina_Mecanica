@@ -13,7 +13,6 @@ import PartsSale from "../../Components/PartsSale/PartsSale.jsx";
 import reviewsData from "../../data/reviewsData.js";
 import "./homePage.css";
 
-
 function HomePage() {
   return (
     <div className="homePage">
@@ -43,7 +42,7 @@ function HomePage() {
           <Map />
         </div>
         <div id="reviews">
-        <Review reviews={reviewsData} />
+          <Review reviews={reviewsData} />
         </div>
       </div>
       <Footer />

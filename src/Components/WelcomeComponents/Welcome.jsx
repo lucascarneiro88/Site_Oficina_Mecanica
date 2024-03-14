@@ -13,7 +13,7 @@ function Welcome() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
           style={{
-            fontSize: "calc(12px + 4vw)", // Responsivo com base na largura da tela
+            fontSize: "calc(12px + 4vw)", 
             fontWeight: "bold",
             color: "#fff",
             textShadow: "2px 2px 4px rgba(26, 23, 23, 0.829)",
@@ -25,7 +25,7 @@ function Welcome() {
           initial={{ opacity: 0, x: 100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 1 }}
-          style={{ fontSize: "calc(8px + 2vw)", color: "#fff" }} // Responsivo com base na largura da tela
+          style={{ fontSize: "calc(8px + 2vw)", color: "#fff" }} 
         >
           Bem-vindo ao nosso site!
         </motion.h2>

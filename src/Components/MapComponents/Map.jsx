@@ -49,7 +49,7 @@ function Map() {
         
         {route && (
           <Polyline 
-            positions={route.coordinates.map(coord => [coord[1], coord[0]])} // Inverte a ordem das coordenadas
+            positions={route.coordinates.map(coord => [coord[1], coord[0]])} 
             color="blue" 
             weight={5} 
             opacity={0.7} 

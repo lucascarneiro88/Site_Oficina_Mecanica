@@ -5,6 +5,7 @@ nav {
   padding: 1em;
   background-color: rgb(48, 57, 65);
 }
+
 .logo {
   display: flex;
   align-items: center;
@@ -12,26 +13,24 @@ nav {
 
 .logo img {
   width: 50px;
-  height: auto; 
+  height: auto;
   margin-right: 10px;
 }
 
 .logo h3 {
- font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 25px;
- color: #fff;
+  color: #fff;
 }
 
 .fab {
-    font-size: 30px; 
-    color: #fff;
+  font-size: 30px;
+  color: #fff;
 }
-
 
 .redes-sociais a {
   margin-right: 10px;
 }
-
 
 .list ul {
   list-style: none;
@@ -40,35 +39,31 @@ nav {
   display: flex;
 }
 
-
 .list li {
-  margin-right: 20px; 
+  margin-right: 20px;
 }
 
 .list li a {
   font-size: 20px;
   text-decoration: none;
   color: white;
-  transition: color 0.3s ease; 
+  transition: color 0.3s ease;
 }
 
 .list li a:hover {
-  color: lightgray; 
+  color: lightgray;
 }
-
 
 .logo img {
-  max-width: 100px; 
+  max-width: 100px;
 }
-
 
 @media only screen and (max-width: 768px) {
   .list {
-    display: none; 
+    display: none;
   }
 
-
   .menu-button {
-    display: block; 
+    display: block;
   }
 }
