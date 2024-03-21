@@ -3,7 +3,6 @@ import logoCarouselData from "../../data/logoCarouselData";
 import "./logoCarousel.css";
 
 function LogoCarousel() {
-
   return (
     <div className="logos">
       <div className="logos-slide">
@@ -18,7 +17,6 @@ function LogoCarousel() {
       </div>
     </div>
   );
-  
 }
 
 export default LogoCarousel;
