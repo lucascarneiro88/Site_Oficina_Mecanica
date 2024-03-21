@@ -30,7 +30,7 @@ function Footer() {
                 alt="Ícone Telefone"
                 className="icone-contato"
               />{" "}
-             (48) 99634-3207
+              (48) 99634-3207
             </p>
             <p>
               <img
