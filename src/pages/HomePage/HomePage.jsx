@@ -12,6 +12,7 @@ import PartsSale from "../../Components/PartsSale/PartsSale.jsx";
 
 import reviewsData from "../../data/reviewsData.js";
 import "./homePage.css";
+import ScrollToTopButton from "../../Components/ScrollToTopButton/ScrollToTopButton.jsx";
 
 function HomePage() {
   return (
@@ -46,6 +47,7 @@ function HomePage() {
         </div>
       </div>
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 }
