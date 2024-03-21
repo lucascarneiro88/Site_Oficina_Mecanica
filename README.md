@@ -53,9 +53,9 @@ Agora você está pronto para começar a contribuir para o projeto! Obrigado pel
 
 **LinkedIn:** www.linkedin.com/in/carneirolucas/
 
-![Descrição da imagem](public/img/img-readme/img-site-inicio.png)
+![imagem inicio site NavBar](public/img/img-readme/img-site-inicio.png)
 
-![Descrição da imagem](public/img/img-readme/img-site-meio.png)
+![imagem meio site com serviços](public/img/img-readme/img-site-meio.png)
 
-![Descrição da imagem](public/img/img-readme/img-site-fim.png)
+![imagem fim site com rodapé](public/img/img-readme/img-site-fim.png)
 
