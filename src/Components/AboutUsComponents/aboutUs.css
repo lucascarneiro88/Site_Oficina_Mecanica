@@ -1,33 +1,27 @@
 .about-us {
-    padding: 50px; 
-    text-align: center; 
-    background-color: #333;
-   
-  }
-  
-  .about-us h2 {
-    font-size: 32px; 
-    margin-bottom: 20px; 
-    color: #fff; 
-  }
-  
-  .about-us p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px; 
-    line-height: 1.6; 
-    color: #fff; 
-  }
- 
-  @media (max-width: 768px) {
-    .sobre-nos h2 {
-      font-size: 24px;
-    }
-  
-    .container-paragrafos {
-      padding: 0 20px;
-    }
-  
-    .container-paragrafos p {
-      font-size: 16px;
-    }
-  }
+  padding: 50px 20px; 
+  text-align: center;
+  background: linear-gradient(to bottom, #333, #555); 
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  color: #fff; 
+}
+
+.about-us h2 {
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.container-paragrafos {
+  max-width: 800px;
+  margin: 0 auto; 
+}
