@@ -2,7 +2,6 @@
 
 Veja o projeto em ação [aqui](https://site-mauro-mecanico.vercel.app/).
 
-
 ## Descrição
 **O Mauro Mecânico é um site desenvolvido para promover os serviços automotivos oferecidos pela oficina Mauro Mecânico. O site foi criado com o objetivo de fornecer informações sobre os serviços, a localização da oficina, depoimentos de clientes e outras informações relevantes para os usuários.** 
 
@@ -53,3 +52,10 @@ Agora você está pronto para começar a contribuir para o projeto! Obrigado pel
 **E-mail:** carneirolucas88@gmail.com
 
 **LinkedIn:** www.linkedin.com/in/carneirolucas/
+
+![Descrição da imagem](public/img/img-readme/img-site-inicio.png)
+
+![Descrição da imagem](public/img/img-readme/img-site-meio.png)
+
+![Descrição da imagem](public/img/img-readme/img-site-fim.png)
+
