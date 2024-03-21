@@ -1,0 +1,23 @@
+.scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #FFD700;
+    border: none;
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.scrollToTopBtn img {
+  
+    width: 30px; 
+    height: 30px; 
+    filter: invert(100%) sepia(2%) saturate(0%) brightness(1000%); 
+   
+}
+
+.scrollToTopBtn:hover {
+    opacity: 0.9;
+}
